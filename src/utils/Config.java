@@ -500,10 +500,10 @@ public class Config {
     default_map.put("tsd.stats.canonical", "false");
     default_map.put("tsd.storage.fix_duplicates", "false");
     default_map.put("tsd.storage.flush_interval", "1000");
-    default_map.put("tsd.storage.hbase.data_table", "tsdb");
-    default_map.put("tsd.storage.hbase.uid_table", "tsdb-uid");
-    default_map.put("tsd.storage.hbase.tree_table", "tsdb-tree");
-    default_map.put("tsd.storage.hbase.meta_table", "tsdb-meta");
+    default_map.put("tsd.storage.hbase.data_table", "hackday-tsdb");
+    default_map.put("tsd.storage.hbase.uid_table", "hackday-tsdb-uid");
+    default_map.put("tsd.storage.hbase.tree_table", "hackday-tsdb-tree");
+    default_map.put("tsd.storage.hbase.meta_table", "hackday-tsdb-meta");
     default_map.put("tsd.storage.hbase.zk_quorum", "localhost");
     default_map.put("tsd.storage.hbase.zk_basedir", "/hbase");
     default_map.put("tsd.storage.hbase.prefetch_meta", "false");
